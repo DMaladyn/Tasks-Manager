@@ -1,0 +1,95 @@
+.task {
+  background-color: bisque;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-radius: 1.2rem;
+  border: 0.18rem solid #082567;
+  max-width: 60rem;
+  margin: auto;
+}
+
+.task ul {
+  list-style: none;
+}
+
+.oppositeSide {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nextTo {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #082567;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.date {
+  margin-right: 3rem;
+  font-size: 1.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
+.delete {
+  background-color: #f44336;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 1.2rem;
+  border-color: #082567;
+  box-shadow: 0 0.4rem #bfbfbf;
+  margin-right: 1rem;
+}
+
+.delete:hover {
+  background-color: #b30000;
+}
+
+.delete:active {
+  box-shadow: 0 0.2rem #737373;
+  box-shadow: 0 0.2rem #666;
+  transform: translateY(0.2rem);
+}
+
+.complete {
+  background-color: #00cc00;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  border-radius: 1.2rem;
+  border-color: #082567;
+  box-shadow: 0 0.4rem #bfbfbf;
+}
+
+.complete:hover {
+  background-color: green;
+}
+
+.complete:active {
+  box-shadow: 0 0.2rem #737373;
+  box-shadow: 0 0.2rem #666;
+  transform: translateY(0.2rem);
+}
+
+@media (max-width: 1025px) {
+  .name {
+    max-width: 50%;
+    word-wrap: break-word;
+  }
+  .date {
+    max-width: 50%;
+    word-wrap: break-word;
+  }
+}

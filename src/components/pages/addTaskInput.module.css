@@ -1,0 +1,37 @@
+.task {
+  background-color: bisque;
+  padding: 0.5rem;
+  border: 0.18rem solid #082567;
+  border-radius: 1.2rem;
+  width: 100%;
+}
+
+.space {
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.task input,
+.task textarea {
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.task label {
+  display: block;
+  font-weight: bold;
+}
+
+.submit {
+  text-align: right;
+}

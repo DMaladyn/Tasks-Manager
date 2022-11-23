@@ -1,0 +1,12 @@
+.grid_main {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
+
+@media (max-width: 1025px) {
+  .grid_main {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 2rem;
+  }
+}

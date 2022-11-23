@@ -1,0 +1,38 @@
+header {
+  width: 100%;
+  display: flex;
+  background-color: #082567;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ul {
+  align-items: baseline;
+  display: flex;
+  list-style: none;
+}
+
+.header li {
+  color: #7982b5;
+  margin-right: 6rem;
+  font-size: 2rem;
+}
+
+a {
+  color: #7982b5;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+.logo {
+  margin-left: 2rem;
+  font-size: 2rem;
+  color: #e11763;
+  font-weight: bold;
+}
+
+.links {
+  align-items: right;
+  align-self: right;
+}
